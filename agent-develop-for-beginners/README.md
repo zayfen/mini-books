@@ -17,15 +17,18 @@
 
 | 章节 | 标题 | 核心内容 |
 |------|------|----------|
-| [前言](./00-foreword.md) | 为什么我们需要 AI Agent？ | 大模型与智能体的本质区别 |
-| [第一章](./01-agent-anatomy.md) | 解剖一个 AI Agent | Profile设定、大脑、手脚与记忆 |
-| [第二章](./02-brain-reasoning.md) | Agent 的大脑——推理与规划 | ReAct、思维链(CoT)、Plan-and-Solve |
-| [第三章](./03-hands-tool-calling.md) | Agent 的双手——工具调用 | Function Calling 工作流解析 |
-| [第四章](./04-memory-and-rag.md) | Agent 的记忆——上下文与 RAG | 短期记忆瓶颈与向量数据库的检索增强 |
-| [第五章](./05-agent-frameworks.md) | 主流框架实战——LangGraph 与 OWL | 工程化的流程状态与多模态开放世界的框架 |
-| [第六章](./06-multi-agent-systems.md) | 多智能体协作 (Multi-Agent Systems) | 层级化、图流转、会议群聊的流水线分工 |
-| [第七章](./07-evaluation-and-deployment.md) | 评估与落地生产部署 | 单元测试评估与安全沙盒隔离 |
-| [结语](./08-conclusion.md) | 拥抱 Agentic 时代，你的下一个应用 | 开发心态与收尾建议 |
+| [前言](./00-foreword.md) | 为什么我们需要 AI Agent？ | 大模型与智能体的本质区别、本书学习路线图 |
+| [第一章](./01-agent-anatomy.md) | 解剖一个 AI Agent | Profile 设定、大脑、双手与记忆，以及四者如何协作运行 |
+| [第二章](./02-brain-reasoning.md) | Agent 的大脑——推理与规划 | CoT 思维链、ReAct 模式、Plan-and-Solve 及三者对比与嵌套 |
+| [第三章](./03-hands-tool-calling.md) | Agent 的双手——工具调用 | Function Calling 工作流、规范写法、工具错误处理策略 |
+| [第四章](./04-memory-and-rag.md) | Agent 的记忆——上下文与 RAG | 短期/长期/情节记忆机制与向量数据库检索增强 |
+| [第五章](./05-agent-frameworks.md) | 主流框架实战——LangGraph、CrewAI 与 OWL | 图状态机控制流、极简角色协作、多模态开放世界三大框架对比 |
+| [第六章](./06-multi-agent-systems.md) | 多智能体协作 (Multi-Agent Systems) | 层级化、图流转、群聊三种协作模式及选型指南 |
+| [第七章](./07-evaluation-and-deployment.md) | 评估与安全部署 | LLM-as-a-Judge 评估、最小权限、沙盒隔离与 Prompt Injection 防御 |
+| **【进阶区】** | | |
+| [第八章](./08-advanced-reasoning.md) | 高阶推理流——让 Agent 学会反思 | Actor-Critic 反思模式与思维树 (ToT) |
+| [第九章](./09-agent-fine-tuning.md) | 模型微调与大模型知识内化 | Tool-Calling 专精微调与推理心智内化 |
+| [结语](./10-conclusion.md) | 拥抱 Agentic 时代，你的下一个应用 | 开发心态与上手建议 |
 
 ## 🎯 适合谁读？
 
